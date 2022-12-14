@@ -1,0 +1,26 @@
+This is a maven project. Here try to make a framework, so that can use the code for automating any website.
+
+> I have created 3 packages  for organize code 
+	*AllPages - this package for keeping all classes where all element are available according to page 
+	*AllTestCases- for keeping all test cases according to page 
+	*Utility- for keeping all classes which are written for browser setUp, report generation, etc
+
+> I have created some folder to organize the framework 
+	*Config folder  - to keep config file 
+	*Drivers - to run any website need to browser driver, to keep those i have created the folder and keep here Chrome and Firfox browser driver. If showed driver error when use the framework change the driver from that folder and keep latest browser driver 
+	*Reports - to keep reports which are generated when run any test
+	*Screenshots- to keep captured screenshots when fail any test case 
+	*TestData - to keep any excel or any file from where system will read data to use that in test case
+	*XmlFiles(testSuite)- to keep used Xml file, in my case here i have kept xml file where exists  testSuite  code named suiteDetailsTestng
+
+>to download auto dependencies here exist pom.xml file 
+	*pom.xml file- here wrote all dependencies 
+
+> "JRE System library"  and "Maven Dependencies" were created for the dependency list which added in pom.xml file 
+
+> to run the project need to select the SuiteDetailsTestng.xml file   and click on the right button of the mouse and click on "RUN as" and after that click on "TestNG test"
+
+>need to extend SetUrl class from every test case to inherit driver  
+
+
+******** this framework created for automate any project , here only reused classes are exist, need to add  other classes which are changed according to project

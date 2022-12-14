@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/test/java/AllPages/HomePage.java=UTF-8
+encoding//src/test/java/AllTestCases/TC_101_GetHomePage_TestCase.java=UTF-8
+encoding//src/test/java/AllTestCases/TC_102_HeaderMenu_TestCase.java=UTF-8
