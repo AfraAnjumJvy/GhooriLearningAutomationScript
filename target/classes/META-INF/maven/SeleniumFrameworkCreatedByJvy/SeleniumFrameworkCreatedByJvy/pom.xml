@@ -4,6 +4,15 @@
   <artifactId>SeleniumFrameworkCreatedByJvy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+
+ <properties>
+   
+		  <java.version>9</java.version>
+        <project.java.version>9</project.java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+  
      <dependencies>
     
     <dependency>
@@ -59,7 +68,7 @@
         <version>3.0.0-M5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
+            <suiteXmlFile>XmlFiles(testSuite)/SuiteDtailsTestng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
